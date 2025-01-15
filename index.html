@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/stylo.css">
+    <title>Desafios Técnicos</title>
+</head>
+
+<body>
+    <h1>Desafios Técnicos</h1>
+
+    <div class="container" id="question1">
+        <h2>1) Soma de Índices</h2>
+
+        <button onclick="calculateSum()">Calcular SOMA</button>
+
+        <div class="result" id="result1"></div>
+    </div>
+
+    <div class="container" id="question2">
+        <h2>2) Sequência de Fibonacci</h2>
+
+        <input type="number" id="fibonacciInput" placeholder="Digite um número">
+
+        <button onclick="checkFibonacci()">Verificar</button>
+
+        <div class="result" id="result2"></div>
+    </div>
+
+    <div class="container" id="question3">
+        <h2>3) Faturamento Diário</h2>
+
+        <textarea id="faturamentoJson" rows="5" placeholder='Insira o JSON do faturamento diário'></textarea>
+
+        <button onclick="processFaturamento()">Calcular</button>
+
+        <div class="result" id="result3"></div>
+    </div>
+
+    <div class="container" id="question4">
+        <h2>4) Percentual de Faturamento por Estado</h2>
+
+        <button onclick="calculatePercentual()">Calcular Percentual</button>
+
+        <div class="result" id="result4"></div>
+    </div>
+
+    <div class="container" id="question5">
+        <h2>5) Inverter String</h2>
+
+        <input type="text" id="stringInput" placeholder="Digite uma string">
+
+        <button onclick="reverseString()">Inverter</button>
+
+        <div class="result" id="result5"></div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
